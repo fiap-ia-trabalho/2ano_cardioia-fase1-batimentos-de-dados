@@ -32,7 +32,7 @@
 
 O **CardioIA** é um projeto acadêmico que simula o ecossistema de uma cardiologia moderna apoiada por Inteligência Artificial. Na **Fase 1 — Batimentos de Dados**, o objetivo é construir uma base confiável para as etapas seguintes, reunindo três modalidades de dados: **numéricos**, **textuais** e **visuais**.
 
-A seleção foi refeita utilizando fontes públicas indicadas pelo grupo: um dataset cardiovascular do Kaggle, duas diretrizes médicas do SciELO e uma base de imagens de ECG do Kaggle. Além da coleta, esta entrega registra origem, formato, possíveis usos em IA e riscos de governança, qualidade e viés.
+A seleção foi feita utilizando fontes públicas: um dataset cardiovascular do Kaggle, duas diretrizes médicas do SciELO e uma base de imagens de ECG do Kaggle. Além da coleta, esta entrega registra origem, formato, possíveis usos em IA e riscos de governança, qualidade e viés.
 
 > **Importante:** este é um projeto acadêmico. Nenhum dado, análise ou futuro modelo do CardioIA deve ser interpretado como diagnóstico, recomendação ou substituto de avaliação médica.
 
@@ -44,11 +44,11 @@ A seleção foi refeita utilizando fontes públicas indicadas pelo grupo: um dat
 **Kaggle — Cardiovascular Disease dataset, Svetlana Ulianova**  
 https://www.kaggle.com/datasets/sulianova/cardiovascular-disease-dataset
 
-A fonte contém **70.000 registros**, com 11 variáveis de entrada e uma variável-alvo (`cardio`). Os valores foram coletados no momento de exame médico, portanto esta base é tratada no projeto como **real, não sintética**. O Kaggle informa a licença como **Unknown**, o que exige cautela em qualquer redistribuição além do contexto acadêmico.
+A fonte contém **70.000 registros**, com 11 variáveis de entrada e uma variável-alvo (`cardio`). Os valores foram coletados no momento de exame médico, portanto esta base é tratada no projeto como **real, não sintética**. 
 
 Para a entrega, incluímos uma **amostra de 100 registros**, atendendo ao mínimo solicitado, e uma versão preparada com nomes mais legíveis, idade derivada em anos e IMC calculado.
 
-**Rastreabilidade da amostra local:** a fonte oficial continua sendo o Kaggle. Para viabilizar a preparação técnica neste ambiente, os 100 registros locais foram conferidos a partir de um espelho público do arquivo `cardio_train.csv` que referencia o mesmo dataset. Em uma cadeia de custódia estrita, recomenda-se ao grupo comparar/substituir a amostra pelo arquivo baixado diretamente do Kaggle antes da submissão final.
+**Rastreabilidade da amostra local:** a fonte oficial continua sendo o Kaggle. Para viabilizar a preparação técnica neste ambiente, os 100 registros locais foram conferidos a partir de um espelho público do arquivo `cardio_train.csv` que referencia o mesmo dataset. 
 
 ### Principais variáveis
 
@@ -167,8 +167,6 @@ Detalhes adicionais: [`FONTES_E_GOVERNANCA.md`](FONTES_E_GOVERNANCA.md).
 | Texto 2 | https://www.scielo.br/j/abc/a/GKTmBKCfKXHmSdYCnyJv9PC/?format=html&lang=pt&ilang=en |
 | Imagens ECG | https://www.kaggle.com/datasets/gowrishankarp/ecg-dataset-cropped |
 
-> Se o tutor exigir especificamente **Google Drive ou OneDrive**, basta subir as mesmas bases e substituir esta tabela pelos links de compartilhamento público. O enunciado também admite outro serviço de armazenamento público.
-
 ---
 
 ## 📁 Estrutura de pastas
@@ -177,8 +175,6 @@ Detalhes adicionais: [`FONTES_E_GOVERNANCA.md`](FONTES_E_GOVERNANCA.md).
 CardioIA_Fase1_Repositorio_Novas_Bases/
 ├── README.md
 ├── FONTES_E_GOVERNANCA.md
-├── CHECKLIST_ENTREGA.md
-├── COMO_PUBLICAR_NO_GITHUB.md
 ├── data/
 │   ├── cardio_train_amostra_100.csv
 │   ├── cardio_train_amostra_100_preparada.csv
@@ -189,11 +185,9 @@ CardioIA_Fase1_Repositorio_Novas_Bases/
 │   ├── texto_02_sindrome_coronariana_scielo.txt
 │   └── Resumo_Executivo_CardioIA_Fase1.docx
 ├── assets/
-│   └── ecg/
-│       ├── README.md
-│       └── manifest_ecg_dataset.csv
-└── notebooks/
-    └── README.md
+    └── ecg/
+    └── manifest_ecg_dataset.csv
+
 ```
 
 ---
@@ -225,7 +219,6 @@ print(df.head())
 ## 🗃 Histórico de lançamentos
 
 - **1.0.0 — Fase 1**
-  - Substituição das bases iniciais pelas fontes aprovadas pelo grupo.
   - Dataset numérico real do Kaggle com amostra preparada de 100 registros.
   - Dois corpora textuais baseados em diretrizes SciELO.
   - Base visual de ECG referenciada via Kaggle.
@@ -245,5 +238,3 @@ print(df.head())
 ## 📋 Licença
 
 O conteúdo autoral deste repositório (documentação e scripts próprios, quando aplicável) é disponibilizado para fins acadêmicos. **As bases externas não são relicenciadas por este projeto**: cada dataset/artigo mantém seus próprios termos e licenças. Em particular, o Kaggle informa a licença do dataset numérico como **Unknown**, e a licença da base visual deve ser confirmada no Data Card antes de redistribuição.
-
-Modelo de README inspirado no template FIAP: https://github.com/agodoi/templateFiapVfinal
