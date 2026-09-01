@@ -1,0 +1,14 @@
+CARDIOIA — CORPUS TEXTUAL 01
+
+Fonte: SciELO / Arquivos Brasileiros de Cardiologia
+Título: Diretrizes Brasileiras de Hipertensão Arterial – 2020
+Publicação: 2021
+DOI: 10.36660/abc.20201238
+URL: https://www.scielo.br/j/abc/a/Z6m5gGNQCvrW3WLV7csqbqh/?lang=pt
+Licença informada na fonte: Creative Commons Attribution (CC BY)
+
+TEXTO PREPARADO PARA NLP
+
+A hipertensão arterial é uma condição multifatorial e um fator relevante de risco cardiovascular e renal. A avaliação clínica considera a medida adequada da pressão arterial, a história do paciente, antecedentes familiares, fatores de risco e exames complementares. Idade, sexo, excesso de peso, alterações de glicose e lipídios, tabagismo, sedentarismo e consumo de álcool podem contribuir para a estratificação de risco. A prevenção envolve controle do peso, alimentação saudável, redução do excesso de sódio, atividade física e abandono do tabagismo. Em um projeto de NLP, este conteúdo permite identificar entidades clínicas, fatores de risco, exames, hábitos e recomendações, além de apoiar classificação temática e recuperação de informação.
+
+Nota: este arquivo é um corpus acadêmico resumido e parafraseado. O artigo completo permanece disponível na URL oficial acima.

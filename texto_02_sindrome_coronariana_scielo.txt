@@ -1,0 +1,14 @@
+CARDIOIA — CORPUS TEXTUAL 02
+
+Fonte: SciELO / Arquivos Brasileiros de Cardiologia
+Título: Diretriz de Síndrome Coronariana Crônica – 2025
+Publicação: 2025 (corrigida em 2026)
+DOI: 10.36660/abc.20250619
+URL: https://www.scielo.br/j/abc/a/GKTmBKCfKXHmSdYCnyJv9PC/?format=html&lang=pt&ilang=en
+Licença informada na fonte: Creative Commons Attribution (CC BY)
+
+TEXTO PREPARADO PARA NLP
+
+Na avaliação de suspeita de síndrome coronariana crônica, a história clínica e o exame físico orientam a estimativa inicial de risco e a necessidade de testes complementares. Na dor torácica, são observados localização, irradiação, duração, relação com esforço, fatores de alívio e sintomas associados. Fatores como hipertensão, diabetes e dislipidemia também são relevantes. Exames laboratoriais e eletrocardiográficos ajudam a complementar a avaliação. Para NLP, o texto pode apoiar extração de sintomas, reconhecimento de entidades médicas, classificação de queixas, identificação de fatores de risco e construção de sistemas de busca ou apoio conversacional.
+
+Nota: este arquivo é um corpus acadêmico resumido e parafraseado. O artigo completo permanece disponível na URL oficial acima.

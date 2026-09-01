@@ -1,0 +1,16 @@
+﻿variavel,tipo,descricao,codificacao_origem
+id,inteiro,Identificador do registro,Original
+idade_dias,inteiro,Idade em dias no dataset original,age
+idade_anos,decimal,Idade derivada em anos,"age/365,25"
+sexo,categorico,Sexo decodificado,gender: 1=feminino; 2=masculino
+altura_cm,inteiro,Altura em centímetros,height
+peso_kg,decimal,Peso em quilogramas,weight
+imc,decimal,Índice de massa corporal derivado,peso/(altura em metros)^2
+pressao_sistolica,inteiro,Pressão arterial sistólica,ap_hi
+pressao_diastolica,inteiro,Pressão arterial diastólica,ap_lo
+colesterol,categorico,Nível categórico de colesterol,1 normal; 2 acima; 3 muito acima
+glicose,categorico,Nível categórico de glicose,1 normal; 2 acima; 3 muito acima
+tabagista,binario,Indicador de tabagismo,0 não; 1 sim
+consumo_alcool,binario,Indicador de consumo de álcool,0 não; 1 sim
+atividade_fisica,binario,Indicador de atividade física,0 não; 1 sim
+doenca_cardiovascular,binario,Variável-alvo: presença de doença cardiovascular,cardio: 0 não; 1 sim
