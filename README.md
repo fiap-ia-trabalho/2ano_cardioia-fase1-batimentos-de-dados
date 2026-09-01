@@ -177,8 +177,6 @@ Detalhes adicionais: [`FONTES_E_GOVERNANCA.md`](FONTES_E_GOVERNANCA.md).
 CardioIA_Fase1_Repositorio_Novas_Bases/
 ├── README.md
 ├── FONTES_E_GOVERNANCA.md
-├── CHECKLIST_ENTREGA.md
-├── COMO_PUBLICAR_NO_GITHUB.md
 ├── data/
 │   ├── cardio_train_amostra_100.csv
 │   ├── cardio_train_amostra_100_preparada.csv
@@ -187,13 +185,11 @@ CardioIA_Fase1_Repositorio_Novas_Bases/
 ├── docs/
 │   ├── texto_01_hipertensao_scielo.txt
 │   ├── texto_02_sindrome_coronariana_scielo.txt
-│   └── Resumo_Executivo_CardioIA_Fase1.docx
 ├── assets/
-│   └── ecg/
-│       ├── README.md
-│       └── manifest_ecg_dataset.csv
-└── notebooks/
-    └── README.md
+    └── ecg/
+       ├── README.md
+       └── manifest_ecg_dataset.csv
+
 ```
 
 ---
@@ -225,7 +221,6 @@ print(df.head())
 ## 🗃 Histórico de lançamentos
 
 - **1.0.0 — Fase 1**
-  - Substituição das bases iniciais pelas fontes aprovadas pelo grupo.
   - Dataset numérico real do Kaggle com amostra preparada de 100 registros.
   - Dois corpora textuais baseados em diretrizes SciELO.
   - Base visual de ECG referenciada via Kaggle.
@@ -244,6 +239,4 @@ print(df.head())
 
 ## 📋 Licença
 
-O conteúdo autoral deste repositório (documentação e scripts próprios, quando aplicável) é disponibilizado para fins acadêmicos. **As bases externas não são relicenciadas por este projeto**: cada dataset/artigo mantém seus próprios termos e licenças. Em particular, o Kaggle informa a licença do dataset numérico como **Unknown**, e a licença da base visual deve ser confirmada no Data Card antes de redistribuição.
-
-Modelo de README inspirado no template FIAP: https://github.com/agodoi/templateFiapVfinal
+O conteúdo autoral deste repositório (documentação e scripts próprios, quando aplicável) é disponibilizado para fins acadêmicos. **As bases externas não são relicenciadas por este projeto**: cada dataset/artigo mantém seus próprios termos e licenças. 
