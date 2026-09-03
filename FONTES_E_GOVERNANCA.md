@@ -1,45 +1,182 @@
 # Fontes, rastreabilidade e governança
 
-Este arquivo registra a procedência das três bases utilizadas na Fase 1 do CardioIA.
+Este documento registra a procedência, a preparação, as limitações e as condições de uso das três modalidades de dados utilizadas na Fase 1 do CardioIA.
 
 ## 1. Dados numéricos
 
-- **Fonte oficial:** Kaggle — Cardiovascular Disease dataset, por Svetlana Ulianova
-- **URL:** https://www.kaggle.com/datasets/sulianova/cardiovascular-disease-dataset
-- **Natureza:** dados de pacientes coletados no momento de exame médico; portanto, tratados neste projeto como **dados reais**, não sintéticos.
-- **Tamanho da fonte:** 70.000 registros, 11 atributos de entrada + variável-alvo.
-- **Licença exibida no Kaggle:** **Unknown**.
-- **Uso local:** amostra de 100 registros para cumprir o mínimo da atividade, acompanhada de versão preparada e dicionário.
-- **Rastreabilidade técnica da amostra:** os 100 registros locais foram conferidos por meio de um espelho público do `cardio_train.csv` associado ao mesmo dataset. Para máxima rastreabilidade, o grupo deve comparar ou substituir a amostra pelo download direto do Kaggle antes da entrega.
-- **Risco de qualidade:** estudos que reutilizam a base relatam valores extremos e entradas fisiologicamente improváveis em pressão arterial. Por isso, etapas futuras devem incluir validação de faixas, duplicatas e outliers antes do treinamento.
+### Identificação
 
-## 2. Textos médicos
+* **Nome:** Cardiovascular Disease Dataset
+* **Autora:** Svetlana Ulianova
+* **Plataforma:** Kaggle
+* **URL:** https://www.kaggle.com/datasets/sulianova/cardiovascular-disease-dataset
+* **Natureza declarada:** dados coletados durante exames médicos
+* **Classificação adotada:** dados reais, não sintéticos
+* **Tamanho informado:** aproximadamente 70.000 registros
+* **Licença apresentada no Kaggle:** Unknown
 
-### Diretrizes Brasileiras de Hipertensão Arterial – 2020
-- Fonte: SciELO / Arquivos Brasileiros de Cardiologia
-- URL: https://www.scielo.br/j/abc/a/Z6m5gGNQCvrW3WLV7csqbqh/?lang=pt
-- DOI: 10.36660/abc.20201238
-- Licença: Creative Commons Attribution (CC BY), conforme SciELO.
+### Preparação local
 
-### Diretriz de Síndrome Coronariana Crônica – 2025
-- Fonte: SciELO / Arquivos Brasileiros de Cardiologia
-- URL: https://www.scielo.br/j/abc/a/GKTmBKCfKXHmSdYCnyJv9PC/?format=html&lang=pt&ilang=en
-- DOI: 10.36660/abc.20250619
-- Licença: Creative Commons Attribution (CC BY), conforme SciELO.
+O repositório contém uma amostra com 100 registros, uma versão tratada em CSV, uma versão Excel e um dicionário de dados.
 
-Os arquivos `.txt` locais são corpora resumidos e parafraseados para uso acadêmico em NLP. O conteúdo integral deve ser consultado nos links oficiais.
+Na preparação foram realizadas:
 
-## 3. Imagens
+* conversão da idade de dias para anos;
+* criação do IMC a partir de peso e altura;
+* tradução e padronização dos nomes das colunas;
+* categorização textual de colesterol e glicose;
+* preservação do identificador original;
+* manutenção da variável-alvo cardiovascular.
 
-- **Fonte:** Kaggle — ECG ROI Segmentation Dataset
-- **URL:** https://www.kaggle.com/datasets/gowrishankarp/ecg-dataset-cropped
-- **Governança pendente:** confirmar quantidade de imagens, origem real/sintética, licença, classes e presença de dados identificáveis diretamente no Data Card antes da submissão definitiva.
+### Rastreabilidade e limitações
 
-## Princípios de governança adotados
+A amostra local foi conferida a partir de uma cópia pública que referencia o mesmo dataset e mantém sua estrutura de variáveis. A página oficial do Kaggle permanece como referência canônica.
 
-- Rastreabilidade da origem e data de acesso das fontes.
-- Separação clara entre dados originais e campos derivados/preparados.
-- Não utilização clínica dos dados ou resultados desta atividade.
-- Avaliação de qualidade, outliers, balanceamento e viés antes de modelagem.
-- Respeito aos termos de uso e licenças de cada fonte externa.
-- Verificação de anonimização e de possíveis identificadores em imagens médicas.
+Essa condição limita a cadeia de custódia da amostra e deve ser considerada na interpretação dos dados, mas não altera a finalidade acadêmica desta entrega.
+
+A fonte não esclarece suficientemente país, instituição responsável, método de amostragem ou representatividade populacional. Portanto, os registros não devem ser considerados representativos da população brasileira.
+
+A codificação binária da variável sexo também restringe análises mais amplas de diversidade.
+
+Como a licença aparece como Unknown, não se presume autorização para exploração comercial ou redistribuição irrestrita.
+
+### Riscos de qualidade
+
+Antes de qualquer modelagem devem ser avaliados:
+
+* valores fisiologicamente improváveis;
+* pressão sistólica menor que a diastólica;
+* alturas e pesos extremos;
+* IMC fora de faixas plausíveis;
+* duplicidades;
+* dados ausentes;
+* desequilíbrio da variável-alvo;
+* diferenças de desempenho por idade e sexo.
+
+---
+
+## 2. Dados textuais
+
+### Fonte 1
+
+* **Título:** Diretrizes Brasileiras de Hipertensão Arterial – 2020
+* **Fonte:** SciELO / Arquivos Brasileiros de Cardiologia
+* **Publicação:** 2021
+* **DOI:** 10.36660/abc.20201238
+* **URL:** https://www.scielo.br/j/abc/a/Z6m5gGNQCvrW3WLV7csqbqh/?lang=pt
+* **Licença informada:** Creative Commons Attribution
+
+### Fonte 2
+
+* **Título:** Diretriz de Síndrome Coronariana Crônica – 2025
+* **Fonte:** SciELO / Arquivos Brasileiros de Cardiologia
+* **DOI:** 10.36660/abc.20250619
+* **URL:** https://www.scielo.br/j/abc/a/GKTmBKCfKXHmSdYCnyJv9PC/?format=html&lang=pt&ilang=en
+* **Licença informada:** Creative Commons Attribution
+
+### Preparação local
+
+Foram produzidos dois corpora acadêmicos em formato TXT. Eles organizam, em linguagem própria e parafraseada, conceitos relacionados aos temas das publicações.
+
+Os arquivos preservam título, fonte, DOI, URL, finalidade e data de acesso. Eles não substituem as diretrizes originais e não reproduzem integralmente as publicações.
+
+### Governança dos textos
+
+Modelos de NLP devem preservar:
+
+* identificação da fonte;
+* data e versão do documento;
+* contexto do trecho recuperado;
+* diferença entre informação educacional e orientação clínica;
+* incerteza e limitações;
+* rastreabilidade das respostas;
+* supervisão humana.
+
+As respostas de um futuro chatbot não poderão ser apresentadas como diagnóstico, prescrição ou recomendação personalizada.
+
+---
+
+## 3. Dados visuais
+
+### Identificação
+
+* **Nome:** ECG ROI Segmentation Dataset
+* **Autor:** Gowri Shankar Penugonda
+* **Plataforma:** Kaggle
+* **URL:** https://www.kaggle.com/datasets/gowrishankarp/ecg-dataset-cropped
+* **Versão consultada:** 5
+* **Data de acesso:** 03/09/2026
+* **Licença apresentada no Kaggle:** Unknown
+* **Natureza:** imagens derivadas e processadas pela fonte
+* **Classificação adotada:** não geradas pelo grupo e não tratadas como exames clínicos brutos
+
+### Seleção preparada
+
+Foram organizadas 108 imagens PNG:
+
+* nove identificadores de amostra;
+* 12 derivações por identificador;
+* nove imagens por derivação;
+* 108 imagens válidas;
+* 108 hashes únicos;
+* nenhuma duplicata exata;
+* nenhum arquivo vazio.
+
+O arquivo `manifest_ecg_108.csv` registra:
+
+* sequência;
+* nome do arquivo;
+* identificador da amostra;
+* identificador-base;
+* augmentação;
+* derivação;
+* formato;
+* dimensões;
+* canais;
+* tamanho;
+* hash SHA-256;
+* natureza do dado.
+
+### Representatividade
+
+Os nove identificadores compartilham o identificador-base `1006427285`. Eles correspondem a augmentações relacionadas, e não a nove pacientes independentes.
+
+O conjunto comprova a coleta e organização de mais de 100 imagens, mas possui baixa diversidade clínica.
+
+Em um modelo futuro, a separação entre treino, validação e teste deverá ocorrer pelo identificador-base. Isso evita vazamento de dados entre imagens relacionadas.
+
+A seleção não possui rótulos diagnósticos comprovados. Por isso, nenhuma imagem deve ser classificada como normal, arritmia, infarto ou outra condição clínica sem evidência adicional.
+
+### Privacidade e uso
+
+Não foi realizada tentativa de identificar pessoas ou combinar os identificadores com outras bases.
+
+Como a licença aparece como Unknown, o material é mantido exclusivamente para a atividade acadêmica, com atribuição explícita e sem alegação de direito comercial.
+
+---
+
+## 4. Matriz geral de riscos
+
+| Risco                        | Impacto                                         | Tratamento                                                  |
+| ---------------------------- | ----------------------------------------------- | ----------------------------------------------------------- |
+| Licença desconhecida         | Uso incompatível com os termos                  | Limitar ao contexto acadêmico e manter atribuição.          |
+| Falta de representatividade  | Modelo com baixa capacidade de generalização    | Ampliar fontes, grupos e identificadores.                   |
+| Outliers numéricos           | Previsões distorcidas                           | Validar faixas e investigar casos extremos.                 |
+| Vazamento entre augmentações | Métricas artificialmente elevadas               | Dividir os dados pelo identificador-base.                   |
+| Desatualização dos textos    | Informação incompatível com evidências recentes | Registrar ano, DOI, fonte e versão.                         |
+| Reidentificação              | Violação de privacidade                         | Remover metadados identificáveis e proibir reidentificação. |
+| Automação clínica indevida   | Risco à saúde                                   | Supervisão humana e finalidade não diagnóstica.             |
+| Viés demográfico             | Desempenho desigual                             | Avaliar métricas segmentadas quando possível.               |
+
+## 5. Princípios adotados
+
+* transparência sobre origem e limitações;
+* rastreabilidade dos arquivos;
+* documentação das transformações;
+* respeito às licenças;
+* minimização de dados;
+* prevenção de reidentificação;
+* avaliação de qualidade antes da modelagem;
+* análise de viés;
+* supervisão humana;
+* uso exclusivamente acadêmico e não diagnóstico.
