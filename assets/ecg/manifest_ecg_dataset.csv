@@ -1,8 +1,0 @@
-﻿campo,valor
-fonte,https://www.kaggle.com/datasets/gowrishankarp/ecg-dataset-cropped
-nome,ECG ROI Segmentation Dataset
-quantidade_minima_exigida,100 imagens .jpg ou .png
-status_arquivos_locais,Referenciados via fonte pública; imagens não duplicadas no repositório
-licenca,Verificar no Data Card do Kaggle antes da entrega
-origem_real_ou_sintetica,Não confirmada durante a preparação; verificar no Data Card
-risco_privacidade,Verificar metadados e sobreposições com identificadores de pacientes
