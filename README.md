@@ -253,15 +253,17 @@ Documentação complementar: [`FONTES_E_GOVERNANCA.md`](./FONTES_E_GOVERNANCA.md
 
 ---
 
-# 🔗 Datasets preparados pelo grupo
+# 🔗 Armazenamento em Nuvem e Datasets Preparados
 
-| Entregável                 | Link público                                             |
-| -------------------------- | -------------------------------------------------------- |
-| Dataset numérico preparado | [Acessar no GitHub](./data/numericos/)                   |
-| Corpus textual para NLP    | [Acessar no GitHub](./docs/textos/)                      |
-| Seleção com 108 imagens    | [Acessar no GitHub](./assets/ecg/Images/)                |
-| Manifesto das imagens      | [Acessar no GitHub](./assets/ecg/manifest_ecg_108.csv)   |
-| Validação das imagens      | [Acessar no GitHub](./assets/ecg/RELATORIO_VALIDACAO.md) |
+📁 **Acesso Geral (Google Drive):** [Acessar Pasta Completa do Projeto](https://drive.google.com/drive/folders/1-8wh-B4K_CpVNJF9E1j8w4BhDyHg85bi?usp=drive_link)
+
+| Entregável | Repositório Local (GitHub) | Armazenamento em Nuvem (Drive) |
+| :--- | :--- | :--- |
+| Dataset numérico preparado | [Acessar no GitHub](./data/numericos/) | [Acessar no Drive](https://drive.google.com/drive/folders/1lN2COz-HdwGFwrDHY4hvMVzmHYldmMrg?usp=drive_link) |
+| Corpus textual para NLP | [Acessar no GitHub](./docs/textos/) | [Acessar no Drive](https://drive.google.com/drive/folders/1igtNTBb9AcPi1DojlmL0AnQCT-fKoCaE?usp=drive_link) |
+| Seleção com 108 imagens | [Acessar no GitHub](./assets/ecg/Images/) | [Acessar no Drive](https://drive.google.com/drive/folders/1HDIQYKllsnJDG7tDWA_9mo2yitJhGAv6?usp=drive_link) |
+| Manifesto das imagens | [Acessar no GitHub](./assets/ecg/manifest_ecg_108.csv) | 
+| Validação das imagens | [Acessar no GitHub](./assets/ecg/RELATORIO_VALIDACAO.md) | 
 
 # 🌐 Fontes originais
 
