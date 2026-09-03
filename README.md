@@ -113,20 +113,20 @@ Textos médicos oferecem vocabulário especializado e relações semânticas que
 
 ---
 
-# 🫀 Parte 3 — Dados Visuais (Visão Computacional)
+## Parte 3 - Dados Visuais (Visão Computacional)
 
-### Fonte escolhida
-**Kaggle — ECG ROI Segmentation Dataset**  
-https://www.kaggle.com/datasets/gowrishankarp/ecg-dataset-cropped
+Foi preparada uma seleção com **108 imagens PNG de ECG**, superando o mínimo de 100 imagens exigido. O conjunto contém nove IDs de amostra e as 12 derivações disponíveis para cada ID (`I`, `II`, `III`, `aVR`, `aVL`, `aVF` e `V1` a `V6`).
 
-A atividade solicita **no mínimo 100 imagens `.jpg` ou `.png`** de exame cardiológico. Para esta entrega, o conjunto completo permanece no Kaggle e o repositório registra a fonte, os requisitos e o plano de uso em `assets/ecg/`.
+- **Dataset preparado:** [Acessar as 108 imagens](./assets/ecg/images/)
+- **Manifesto dos arquivos:** [Acessar o manifesto](./assets/ecg/manifest_ecg_108.csv)
+- **Relatório de validação:** [Acessar a validação](./assets/ecg/RELATORIO_VALIDACAO.md)
+- **Fonte original:** [ECG ROI Segmentation Dataset - Kaggle](https://www.kaggle.com/datasets/gowrishankarp/ecg-dataset-cropped)
 
-### Possíveis aplicações em Visão Computacional
-- Pré-processamento e normalização de imagens de ECG.
-- Segmentação de regiões de interesse (ROI).
-- Detecção de bordas, linhas e padrões visuais.
-- Extração de características para comparação entre exames.
-- Classificação/reconhecimento de padrões, desde que os rótulos da fonte sejam adequados e validados.
+De acordo com o Data Card, a fonte reúne recortes de derivações de ECG e máscaras binárias produzidos por um pipeline de processamento derivado do PhysioNet 2025 Challenge. As imagens são **dados derivados e processados pela fonte; não foram geradas pelo grupo**. A licença é informada pelo Kaggle como **Unknown**, razão pela qual o uso nesta entrega é acadêmico e mantém atribuição explícita.
+
+As imagens poderão ser exploradas em tarefas de segmentação do traçado, identificação de bordas, controle de qualidade, extração de características e, futuramente, detecção de anomalias quando houver rótulos clínicos confiáveis. Em um cenário real, a solução poderia auxiliar a triagem e priorização de exames, sempre com validação e supervisão de profissionais de saúde.
+
+> **Limitação:** os nove IDs selecionados compartilham o mesmo identificador-base e representam augmentações relacionadas, não nove pacientes independentes. Em futuros treinamentos, a divisão dos dados deverá ser realizada pelo identificador-base para evitar vazamento entre treino, validação e teste.
 
 ### Governança específica da base visual
 Antes da submissão final, o grupo deve confirmar no Data Card do Kaggle:
