@@ -1,14 +1,181 @@
 CARDIOIA — CORPUS TEXTUAL 01
 
-Fonte: SciELO / Arquivos Brasileiros de Cardiologia
-Título: Diretrizes Brasileiras de Hipertensão Arterial – 2020
-Publicação: 2021
-DOI: 10.36660/abc.20201238
-URL: https://www.scielo.br/j/abc/a/Z6m5gGNQCvrW3WLV7csqbqh/?lang=pt
-Licença informada na fonte: Creative Commons Attribution (CC BY)
+TÍTULO DA FONTE:
+Diretrizes Brasileiras de Hipertensão Arterial – 2020
 
-TEXTO PREPARADO PARA NLP
+FONTE:
+SciELO / Arquivos Brasileiros de Cardiologia
 
-A hipertensão arterial é uma condição multifatorial e um fator relevante de risco cardiovascular e renal. A avaliação clínica considera a medida adequada da pressão arterial, a história do paciente, antecedentes familiares, fatores de risco e exames complementares. Idade, sexo, excesso de peso, alterações de glicose e lipídios, tabagismo, sedentarismo e consumo de álcool podem contribuir para a estratificação de risco. A prevenção envolve controle do peso, alimentação saudável, redução do excesso de sódio, atividade física e abandono do tabagismo. Em um projeto de NLP, este conteúdo permite identificar entidades clínicas, fatores de risco, exames, hábitos e recomendações, além de apoiar classificação temática e recuperação de informação.
+PUBLICAÇÃO:
+2021
 
-Nota: este arquivo é um corpus acadêmico resumido e parafraseado. O artigo completo permanece disponível na URL oficial acima.
+DOI:
+10.36660/abc.20201238
+
+URL:
+https://www.scielo.br/j/abc/a/Z6m5gGNQCvrW3WLV7csqbqh/?lang=pt
+
+LICENÇA INFORMADA:
+Creative Commons Attribution
+
+DATA DE ACESSO:
+03/09/2026
+
+NATUREZA DESTE ARQUIVO:
+Corpus acadêmico autoral e parafraseado, preparado a partir dos temas da publicação. Este arquivo não reproduz integralmente a diretriz e não substitui a consulta à fonte original.
+
+==================================================
+TEXTO PREPARADO PARA PROCESSAMENTO DE LINGUAGEM NATURAL
+=======================================================
+
+1. HIPERTENSÃO ARTERIAL
+
+A hipertensão arterial é uma condição crônica e multifatorial caracterizada pela elevação persistente da pressão exercida pelo sangue sobre as paredes das artérias. Sua identificação exige técnica adequada de medição, avaliação do contexto clínico e, quando necessário, confirmação por medidas realizadas fora do consultório.
+
+A condição possui grande relevância para a saúde pública porque pode evoluir de forma silenciosa durante muitos anos. Mesmo sem sintomas evidentes, níveis elevados de pressão podem contribuir para lesões progressivas em vasos sanguíneos e órgãos.
+
+A ausência de sintomas não significa ausência de risco. Por isso, aferições periódicas e acompanhamento profissional são importantes, especialmente em pessoas com fatores de risco cardiovascular.
+
+2. MEDIÇÃO E AVALIAÇÃO DA PRESSÃO
+
+A qualidade da medida influencia diretamente a avaliação. O paciente precisa estar adequadamente posicionado e deve permanecer em repouso antes da aferição. O braço deve estar apoiado, e o tamanho do manguito precisa ser compatível com a circunferência do braço.
+
+Uma única medição isolada pode não representar o comportamento habitual da pressão arterial. Ansiedade, atividade física recente, dor, consumo de estimulantes e características do ambiente podem alterar o resultado.
+
+Dependendo da situação, medidas residenciais ou ambulatoriais podem complementar a avaliação. Elas ajudam a investigar fenômenos como hipertensão do avental branco e hipertensão mascarada.
+
+No primeiro caso, os valores podem estar elevados no consultório e mais baixos fora dele. No segundo, a pressão pode parecer adequada no atendimento, mas permanecer elevada em outros momentos.
+
+3. FATORES DE RISCO
+
+A hipertensão resulta da interação de fatores genéticos, biológicos, comportamentais, sociais e ambientais.
+
+Entre os fatores relevantes estão:
+
+* idade;
+* antecedentes familiares;
+* excesso de peso;
+* obesidade;
+* consumo excessivo de sódio;
+* alimentação desequilibrada;
+* sedentarismo;
+* consumo excessivo de álcool;
+* tabagismo;
+* alterações de glicose;
+* diabetes;
+* alterações do colesterol;
+* estresse;
+* condições socioeconômicas;
+* distúrbios do sono;
+* apneia obstrutiva do sono.
+
+Esses elementos não atuam de maneira idêntica em todas as pessoas. A avaliação do risco deve considerar o conjunto das características clínicas, e não apenas uma variável isolada.
+
+4. CONSEQUÊNCIAS CARDIOVASCULARES
+
+Quando não controlada, a pressão elevada pode contribuir para danos em diferentes órgãos.
+
+Entre as possíveis complicações cardiovasculares e sistêmicas estão:
+
+* acidente vascular cerebral;
+* doença arterial coronariana;
+* infarto do miocárdio;
+* insuficiência cardíaca;
+* alterações vasculares;
+* doença renal crônica;
+* comprometimento da retina;
+* maior risco de mortalidade cardiovascular.
+
+O risco aumenta quando a hipertensão está associada a diabetes, tabagismo, dislipidemia, doença renal, obesidade ou histórico prévio de eventos cardiovasculares.
+
+5. AVALIAÇÃO CLÍNICA
+
+A avaliação pode reunir anamnese, exame físico, histórico familiar, hábitos de vida e exames complementares.
+
+A anamnese procura identificar duração da condição, tratamentos anteriores, uso regular de medicamentos, sintomas, consumo de álcool, tabagismo, alimentação, nível de atividade física e outras doenças.
+
+O exame físico pode incluir aferição da pressão, frequência cardíaca, peso, altura, índice de massa corporal e avaliação de sinais que indiquem lesões em órgãos-alvo ou causas secundárias.
+
+Exames laboratoriais podem auxiliar na investigação do perfil metabólico, da função renal e de outros fatores de risco.
+
+6. PREVENÇÃO E ESTILO DE VIDA
+
+A prevenção envolve ações individuais e coletivas. Entre as medidas frequentemente relacionadas à redução do risco estão:
+
+* alimentação equilibrada;
+* redução do excesso de sódio;
+* consumo adequado de alimentos naturais;
+* controle do peso;
+* prática regular de atividade física;
+* redução do consumo excessivo de álcool;
+* abandono do tabagismo;
+* cuidado com o sono;
+* acompanhamento periódico da saúde.
+
+Mudanças de estilo de vida precisam considerar condições econômicas, culturais e sociais. Recomendações genéricas podem ser difíceis de seguir quando não respeitam a realidade do paciente.
+
+7. ADESÃO E ACOMPANHAMENTO
+
+O controle de uma condição crônica depende da participação ativa do paciente, da comunicação com os profissionais e da continuidade do cuidado.
+
+Esquecimento, efeitos adversos, dificuldade financeira, baixa compreensão das orientações, rotina complexa e ausência de apoio podem prejudicar a adesão.
+
+Equipes multiprofissionais podem contribuir por meio de educação em saúde, acompanhamento, monitoramento e construção compartilhada do plano de cuidado.
+
+Tecnologias digitais podem apoiar lembretes, registros de medidas e comunicação. Entretanto, essas ferramentas devem proteger dados pessoais e não podem substituir a avaliação profissional.
+
+8. GOVERNANÇA E INTELIGÊNCIA ARTIFICIAL
+
+Dados sobre pressão arterial são sensíveis. Qualquer sistema de IA deve aplicar proteção de dados, controle de acesso e rastreabilidade.
+
+Um modelo treinado com dados pouco representativos pode funcionar bem em um grupo e apresentar desempenho inadequado em outro. Por isso, métricas devem ser analisadas por idade, sexo e outros grupos disponíveis.
+
+Valores extremos não devem ser removidos automaticamente. Primeiro é necessário investigar se representam erro de registro, problema de medição ou condição clínica verdadeira.
+
+A inteligência artificial pode apoiar organização, triagem e identificação de padrões, mas não deve emitir diagnóstico autônomo.
+
+9. POSSÍVEIS TAREFAS DE NLP
+
+Este corpus permite explorar:
+
+* identificação de doenças;
+* extração de fatores de risco;
+* reconhecimento de exames;
+* identificação de hábitos de vida;
+* classificação de trechos;
+* análise de frequência de palavras;
+* construção de glossário;
+* sumarização;
+* busca semântica;
+* geração de perguntas e respostas;
+* desenvolvimento de chatbot educacional.
+
+10. TERMOS RELEVANTES
+
+hipertensão arterial
+pressão arterial
+pressão sistólica
+pressão diastólica
+risco cardiovascular
+acidente vascular cerebral
+infarto do miocárdio
+insuficiência cardíaca
+doença renal
+diabetes
+colesterol
+obesidade
+tabagismo
+sedentarismo
+atividade física
+alimentação
+sódio
+adesão
+prevenção
+monitoramento
+tratamento
+exame físico
+anamnese
+supervisão médica
+
+AVISO:
+Este corpus possui finalidade acadêmica. Não oferece diagnóstico, prescrição ou recomendação clínica individual.
