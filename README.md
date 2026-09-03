@@ -54,7 +54,7 @@ Além da coleta, a entrega documenta a origem, as características, as limitaç�
 | ---------------- | ---------------------------------------------------- | --------------: | ------------------------------------------------------ |
 | Dados numéricos  | Amostra cardiovascular original e versão tratada     |   100 registros | [Abrir pasta](./data/numericos/)                       |
 | Dados textuais   | Dois corpora baseados em diretrizes cardiovasculares |  2 arquivos TXT | [Abrir pasta](./docs/textos/)                          |
-| Dados visuais    | Recortes de derivações de ECG                        | 108 imagens PNG | [Abrir imagens](./assets/ecg/images/)                  |
+| Dados visuais    | Recortes de derivações de ECG                        | 108 imagens PNG | [Abrir imagens](https://github.com/fiap-ia-trabalho/2ano_cardioia-fase1-batimentos-de-dados/tree/fcb8a4d61d1a210cbb30bc8663c7c5be92b83a3d/assets/ecg/Images)                  |
 | Catálogo visual  | Manifesto com metadados e hashes                     |   108 registros | [Abrir manifesto](./assets/ecg/manifest_ecg_108.csv)   |
 | Validação visual | Relatório de integridade e distribuição              |     1 relatório | [Abrir relatório](./assets/ecg/RELATORIO_VALIDACAO.md) |
 
