@@ -1,14 +1,201 @@
 CARDIOIA — CORPUS TEXTUAL 02
 
-Fonte: SciELO / Arquivos Brasileiros de Cardiologia
-Título: Diretriz de Síndrome Coronariana Crônica – 2025
-Publicação: 2025 (corrigida em 2026)
-DOI: 10.36660/abc.20250619
-URL: https://www.scielo.br/j/abc/a/GKTmBKCfKXHmSdYCnyJv9PC/?format=html&lang=pt&ilang=en
-Licença informada na fonte: Creative Commons Attribution (CC BY)
+TÍTULO DA FONTE:
+Diretriz de Síndrome Coronariana Crônica – 2025
 
-TEXTO PREPARADO PARA NLP
+FONTE:
+SciELO / Arquivos Brasileiros de Cardiologia
 
-Na avaliação de suspeita de síndrome coronariana crônica, a história clínica e o exame físico orientam a estimativa inicial de risco e a necessidade de testes complementares. Na dor torácica, são observados localização, irradiação, duração, relação com esforço, fatores de alívio e sintomas associados. Fatores como hipertensão, diabetes e dislipidemia também são relevantes. Exames laboratoriais e eletrocardiográficos ajudam a complementar a avaliação. Para NLP, o texto pode apoiar extração de sintomas, reconhecimento de entidades médicas, classificação de queixas, identificação de fatores de risco e construção de sistemas de busca ou apoio conversacional.
+DOI:
+10.36660/abc.20250619
 
-Nota: este arquivo é um corpus acadêmico resumido e parafraseado. O artigo completo permanece disponível na URL oficial acima.
+URL:
+https://www.scielo.br/j/abc/a/GKTmBKCfKXHmSdYCnyJv9PC/?format=html&lang=pt&ilang=en
+
+LICENÇA INFORMADA:
+Creative Commons Attribution
+
+DATA DE ACESSO:
+03/09/2026
+
+NATUREZA DESTE ARQUIVO:
+Corpus acadêmico autoral e parafraseado, preparado a partir dos temas da publicação. Este arquivo não reproduz integralmente a diretriz e não substitui a consulta à fonte original.
+
+==================================================
+TEXTO PREPARADO PARA PROCESSAMENTO DE LINGUAGEM NATURAL
+=======================================================
+
+1. SÍNDROME CORONARIANA CRÔNICA
+
+A síndrome coronariana crônica está relacionada a alterações persistentes na circulação das artérias coronárias e pode apresentar diferentes manifestações clínicas.
+
+A avaliação não depende exclusivamente da presença de dor no peito. História clínica, fatores de risco, exame físico e exames complementares precisam ser analisados em conjunto.
+
+A manifestação pode variar de pessoa para pessoa. Algumas apresentam desconforto típico durante esforços, enquanto outras relatam falta de ar, cansaço, redução da capacidade funcional ou sintomas pouco específicos.
+
+2. CARACTERÍSTICAS DA DOR TORÁCICA
+
+Na investigação da dor torácica, são observadas características como:
+
+* localização;
+* intensidade;
+* qualidade;
+* duração;
+* frequência;
+* irradiação;
+* relação com esforço físico;
+* relação com estresse emocional;
+* fatores de piora;
+* fatores de alívio;
+* sintomas associados.
+
+Descrições de pressão, aperto, peso ou desconforto podem ser clinicamente relevantes. A irradiação pode envolver braços, ombros, mandíbula, pescoço, costas ou região superior do abdômen.
+
+O contexto é indispensável. Uma palavra isolada não determina a causa do sintoma.
+
+3. SINTOMAS ASSOCIADOS
+
+Além da dor ou desconforto torácico, podem ocorrer:
+
+* dispneia;
+* fadiga;
+* sudorese;
+* náusea;
+* tontura;
+* palpitações;
+* redução da tolerância ao esforço;
+* mal-estar.
+
+Algumas pessoas podem apresentar sintomas atípicos. Essa possibilidade precisa ser considerada principalmente em grupos cuja manifestação clínica nem sempre segue o padrão mais conhecido.
+
+Sistemas automatizados não devem descartar risco apenas porque o texto do paciente não contém a expressão “dor no peito”.
+
+4. FATORES DE RISCO
+
+A avaliação inclui fatores como:
+
+* idade;
+* histórico familiar;
+* hipertensão arterial;
+* diabetes;
+* alterações do colesterol;
+* tabagismo;
+* sedentarismo;
+* obesidade;
+* doença renal;
+* doença cardiovascular prévia;
+* alimentação inadequada;
+* condições psicossociais.
+
+A presença de um fator isolado não confirma a doença. Entretanto, a combinação de múltiplos fatores pode modificar a probabilidade clínica e orientar a necessidade de investigação.
+
+5. HISTÓRIA CLÍNICA E EXAME FÍSICO
+
+A história clínica procura compreender o início, a evolução e o impacto dos sintomas. Também considera tratamentos anteriores, medicamentos utilizados, doenças associadas e histórico de eventos cardiovasculares.
+
+O exame físico ajuda a identificar sinais clínicos e diagnósticos alternativos. Um exame físico sem alterações não elimina necessariamente a possibilidade de doença coronariana.
+
+A comunicação do paciente deve ser valorizada. Linguagem, escolaridade, cultura, gênero e experiências anteriores podem influenciar a forma como os sintomas são descritos.
+
+6. EXAMES COMPLEMENTARES
+
+A investigação pode incluir exames laboratoriais, eletrocardiograma e métodos de avaliação anatômica ou funcional.
+
+O eletrocardiograma registra a atividade elétrica do coração e pode contribuir para a avaliação. Entretanto, sua interpretação depende da qualidade do registro, do contexto clínico e da análise profissional.
+
+Exames de imagem e testes funcionais podem ser indicados de acordo com a probabilidade clínica, o risco e as características do paciente.
+
+Nenhum exame isolado deve ser interpretado fora do contexto.
+
+7. ESTRATIFICAÇÃO DE RISCO
+
+A estratificação procura identificar a probabilidade de eventos e orientar a intensidade do acompanhamento.
+
+Ela pode considerar:
+
+* sintomas;
+* capacidade funcional;
+* fatores de risco;
+* resultados de exames;
+* presença de outras doenças;
+* função cardíaca;
+* histórico de eventos;
+* resposta ao tratamento.
+
+Modelos de risco podem apoiar a decisão, mas não substituem o raciocínio clínico. Um resultado probabilístico precisa ser interpretado com transparência.
+
+8. CUIDADO E ACOMPANHAMENTO
+
+O cuidado pode envolver controle dos fatores de risco, mudanças de estilo de vida, acompanhamento profissional e tratamento medicamentoso definido por equipe habilitada.
+
+Atividade física, alimentação, controle do peso, abandono do tabagismo e adesão ao acompanhamento podem fazer parte da prevenção cardiovascular.
+
+As decisões precisam ser individualizadas. Idade, comorbidades, preferências, limitações, benefícios e riscos devem ser considerados.
+
+O acompanhamento permite observar mudanças dos sintomas, efeitos adversos, adesão e necessidade de reavaliação.
+
+9. SEGURANÇA E LIMITES DA AUTOMAÇÃO
+
+Sintomas cardiovasculares podem exigir avaliação rápida. Um chatbot não deve oferecer falsa segurança, atrasar atendimento ou apresentar conclusões definitivas.
+
+Sistemas digitais devem possuir regras de segurança para orientar a procura de atendimento quando houver sinais potencialmente graves, piora súbita ou associação de sintomas preocupantes.
+
+A IA pode ajudar a organizar relatos, extrair informações e priorizar revisão, mas a responsabilidade clínica deve permanecer com profissionais qualificados.
+
+10. APLICAÇÕES DE NLP
+
+Este corpus pode apoiar:
+
+* reconhecimento de sintomas;
+* extração de localização e irradiação da dor;
+* identificação da duração e dos fatores desencadeantes;
+* reconhecimento de fatores de risco;
+* identificação de exames;
+* classificação de queixas;
+* agrupamento temático;
+* busca semântica;
+* sumarização;
+* criação de perguntas e respostas;
+* triagem textual supervisionada;
+* chatbot educacional fundamentado em fontes.
+
+11. DESAFIOS DE NLP
+
+Pacientes podem utilizar expressões como peso, aperto, queimação, pontada, falta de ar, cansaço ou mal-estar. Essas expressões podem ter significados diferentes conforme o contexto.
+
+Negação também é importante. As frases “apresenta dor torácica” e “nega dor torácica” não podem receber a mesma interpretação.
+
+Temporalidade precisa ser identificada. “Sentiu dor há dois anos” é diferente de “está com dor agora”.
+
+A identificação da pessoa mencionada também é necessária. “Meu pai teve infarto” não significa que o paciente teve infarto.
+
+Esses exemplos demonstram por que modelos de linguagem em saúde precisam de contexto, validação e supervisão.
+
+12. TERMOS RELEVANTES
+
+síndrome coronariana crônica
+doença arterial coronariana
+dor torácica
+desconforto
+pressão
+aperto
+irradiação
+dispneia
+fadiga
+sudorese
+náusea
+palpitação
+esforço
+hipertensão
+diabetes
+colesterol
+tabagismo
+eletrocardiograma
+exames laboratoriais
+estratificação de risco
+acompanhamento
+prevenção
+supervisão humana
+
+AVISO:
+Este corpus possui finalidade acadêmica. Não oferece diagnóstico, prescrição ou recomendação clínica individual.
