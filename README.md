@@ -167,7 +167,6 @@ Detalhes adicionais: [`FONTES_E_GOVERNANCA.md`](FONTES_E_GOVERNANCA.md).
 | Texto 2 | https://www.scielo.br/j/abc/a/GKTmBKCfKXHmSdYCnyJv9PC/?format=html&lang=pt&ilang=en |
 | Imagens ECG | https://www.kaggle.com/datasets/gowrishankarp/ecg-dataset-cropped |
 
-> Se o tutor exigir especificamente **Google Drive ou OneDrive**, basta subir as mesmas bases e substituir esta tabela pelos links de compartilhamento público. O enunciado também admite outro serviço de armazenamento público.
 
 ---
 
