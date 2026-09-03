@@ -208,7 +208,7 @@ Derivações representadas:
 
 Arquivos da entrega:
 
-* [108 imagens PNG](./assets/ecg/images/)
+* [108 imagens PNG](./assets/ecg/Images/)
 * [Manifesto dos arquivos](./assets/ecg/manifest_ecg_108.csv)
 * [Relatório de validação](./assets/ecg/RELATORIO_VALIDACAO.md)
 * [Documentação do dataset visual](./assets/ecg/README.md)
@@ -259,7 +259,7 @@ Documentação complementar: [`FONTES_E_GOVERNANCA.md`](./FONTES_E_GOVERNANCA.md
 | -------------------------- | -------------------------------------------------------- |
 | Dataset numérico preparado | [Acessar no GitHub](./data/numericos/)                   |
 | Corpus textual para NLP    | [Acessar no GitHub](./docs/textos/)                      |
-| Seleção com 108 imagens    | [Acessar no GitHub](./assets/ecg/images/)                |
+| Seleção com 108 imagens    | [Acessar no GitHub](./assets/ecg/Images/)                |
 | Manifesto das imagens      | [Acessar no GitHub](./assets/ecg/manifest_ecg_108.csv)   |
 | Validação das imagens      | [Acessar no GitHub](./assets/ecg/RELATORIO_VALIDACAO.md) |
 
@@ -296,7 +296,7 @@ Documentação complementar: [`FONTES_E_GOVERNANCA.md`](./FONTES_E_GOVERNANCA.md
         ├── README.md
         ├── RELATORIO_VALIDACAO.md
         ├── manifest_ecg_108.csv
-        └── images/
+        └── Images/
             ├── ecg_001_1006427285-0001_I.png
             ├── ...
             └── ecg_108_1006427285-0012_aVR.png
@@ -352,7 +352,7 @@ for arquivo in pasta.glob("*.txt"):
 ```python
 from pathlib import Path
 
-imagens = list(Path("assets/ecg/images").glob("*.png"))
+imagens = list(Path("assets/ecg/Images").glob("*.png"))
 print(f"Quantidade de imagens: {len(imagens)}")
 ```
 
