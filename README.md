@@ -262,8 +262,8 @@ Documentação complementar: [`FONTES_E_GOVERNANCA.md`](./FONTES_E_GOVERNANCA.md
 | Dataset numérico preparado | [Acessar no GitHub](./data/numericos/) | [Acessar no Drive](https://drive.google.com/drive/folders/1lN2COz-HdwGFwrDHY4hvMVzmHYldmMrg?usp=drive_link) |
 | Corpus textual para NLP | [Acessar no GitHub](./docs/textos/) | [Acessar no Drive](https://drive.google.com/drive/folders/1igtNTBb9AcPi1DojlmL0AnQCT-fKoCaE?usp=drive_link) |
 | Seleção com 108 imagens | [Acessar no GitHub](./assets/ecg/Images/) | [Acessar no Drive](https://drive.google.com/drive/folders/1HDIQYKllsnJDG7tDWA_9mo2yitJhGAv6?usp=drive_link) |
-| Manifesto das imagens | [Acessar no GitHub](./assets/ecg/manifest_ecg_108.csv) | 
-| Validação das imagens | [Acessar no GitHub](./assets/ecg/RELATORIO_VALIDACAO.md) | 
+| Manifesto das imagens | [Acessar no GitHub](./assets/ecg/manifest_ecg_108.csv) | [Acessar no Drive](https://drive.google.com/file/d/1ZhO5qoFAo26Izxu9ntS0wr3eyEoNXMxg/view?usp=drive_link) |
+| Validação das imagens | [Acessar no GitHub](./assets/ecg/RELATORIO_VALIDACAO.md) | [Acessar no Drive](https://drive.google.com/file/d/14xMRD1f6OzvgqavcdOUAH9h78KMZ-tnd/view?usp=drive_link) |
 
 # 🌐 Fontes originais
 
