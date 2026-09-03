@@ -189,7 +189,7 @@ A licença aparece no Kaggle como **Unknown**. O conjunto é utilizado apenas no
 
 ## Dataset preparado
 
-Foi preparada uma seleção com **108 imagens PNG**, superando o mínimo de 100 imagens solicitado.
+Foi preparada uma seleção com **108 imagens PNG**.
 
 A seleção contém:
 
